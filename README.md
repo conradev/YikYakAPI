@@ -2,7 +2,7 @@
 
 This is a Python implementation of the private Yik Yak API.
 
-## Example
+## Example Usage
 
 ``` python
 from yikyak import YikYakAPI
@@ -16,3 +16,7 @@ for x in range (0, 140):
 	yyapi.registerUser()
 	print yyapi.likeMessage(messageID)
 ```
+
+## License
+
+YikYakAPI is available under the GNU General Public License v3. See the LICENSE file for more info.
