@@ -1,0 +1,1 @@
+from .yikyakapi import YikYakAPI
