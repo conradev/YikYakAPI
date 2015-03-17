@@ -2,6 +2,8 @@
 
 This is a Python implementation of the private Yik Yak API.
 
+It is easily be shadow banned because it does not mimic iOS device requests 100% (but it theoreitcally could) and it doesn't generate real-looking locations (but it theoretically could).
+
 ## Example Usage
 
 ``` python
