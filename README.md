@@ -2,7 +2,7 @@
 
 This is a Python implementation of the private Yik Yak API.
 
-It can easily be shadow banned because it does not mimic iOS device requests 100% (but it theoreitcally could) and it doesn't generate real-looking locations (but it theoretically could).
+It can easily be shadow banned because it does not mimic iOS device requests 100% (but it theoretically could) and it doesn't generate real-looking locations (but it theoretically could).
 
 ## Example Usage
 
@@ -14,9 +14,9 @@ yyapi.registerUser()
 messageID = yyapi.sendMessage('test').get('yakID', None)
 
 for x in range (0, 140):
-	yyapi = YikYakAPI(None, 0, 0)
-	yyapi.registerUser()
-	print yyapi.likeMessage(messageID)
+    yyapi = YikYakAPI(None, 0, 0)
+    yyapi.registerUser()
+    print yyapi.likeMessage(messageID)
 ```
 
 ## License
