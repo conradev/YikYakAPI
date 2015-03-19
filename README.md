@@ -6,11 +6,25 @@ It can easily be shadow banned because it does not mimic iOS device requests 100
 
 ## Example Usage
 
+### Import and Instantiate Client
+
 ``` python
 from yikyak import YikYakAPI
 
 yyapi = YikYakAPI(None, 37.427367, -122.169982)
 yyapi.registerUser()
+```
+
+### Get Yaks
+
+``` python
+yyapi.getMessages()
+> {'otherLocations': [ ... ], 'yakarma': '100', 'messages': [ ... ], 'featuredLocations': [ ... ]}
+```
+
+### More Rigorous Example
+
+``` python
 messageID = yyapi.sendMessage('test').get('yakID', None)
 
 for x in range (0, 140):
