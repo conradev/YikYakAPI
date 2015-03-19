@@ -10,7 +10,6 @@ It can easily be shadow banned because it does not mimic iOS device requests 100
 
 ``` python
 from yikyak import YikYakAPI
-
 yyapi = YikYakAPI(None, 37.427367, -122.169982)
 yyapi.registerUser()
 ```
@@ -19,8 +18,7 @@ yyapi.registerUser()
 
 ``` python
 yyapi.getMessages()
->>> {'otherLocations': [ ... ], 'yakarma': '100',
-     'messages': [ ... ], 'featuredLocations': [ ... ]}
+# {'otherLocations': [ ... ], 'yakarma': '100', 'messages': [ ... ], 'featuredLocations': [ ... ]}
 ```
 
 ### More Rigorous Example
