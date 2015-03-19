@@ -19,7 +19,8 @@ yyapi.registerUser()
 
 ``` python
 yyapi.getMessages()
-> {'otherLocations': [ ... ], 'yakarma': '100', 'messages': [ ... ], 'featuredLocations': [ ... ]}
+>>> {'otherLocations': [ ... ], 'yakarma': '100',
+     'messages': [ ... ], 'featuredLocations': [ ... ]}
 ```
 
 ### More Rigorous Example
