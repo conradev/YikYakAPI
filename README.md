@@ -21,7 +21,7 @@ yyapi.getMessages()
 # {'otherLocations': [ ... ], 'yakarma': '100', 'messages': [ ... ], 'featuredLocations': [ ... ]}
 ```
 
-### More Rigorous Example
+### Post and Upvote a Yak
 
 ``` python
 messageID = yyapi.sendMessage('test').get('yakID', None)
